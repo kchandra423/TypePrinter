@@ -27,6 +27,7 @@ public class Main {
             ez.print("16) Dark");
             ez.print("17) Steel");
             ez.print("18) Fairy");
+            ez.print("no");
             String answer = kboard.next();
             if (answer.equalsIgnoreCase("1")||answer.equalsIgnoreCase("Normal")){
                 types.normal();
