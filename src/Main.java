@@ -41,7 +41,7 @@ public class Main {
                 types.electric();
             }
             else if (answer.equalsIgnoreCase("5")||answer.equalsIgnoreCase("Grass")){
-
+                types.grass();
             }
             else if (answer.equalsIgnoreCase("6")||answer.equalsIgnoreCase("Ice")) {
 
