@@ -44,7 +44,7 @@ public class Main {
                 types.grass();
             }
             else if (answer.equalsIgnoreCase("6")||answer.equalsIgnoreCase("Ice")) {
-
+                types.ice();
             }
             else if (answer.equalsIgnoreCase("7")||answer.equalsIgnoreCase("Fighting")) {
 
