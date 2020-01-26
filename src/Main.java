@@ -8,7 +8,7 @@ public class Main {
         Scanner kboard = new Scanner(System.in);
         boolean loopCondition = true;
         while(loopCondition) {
-            System.out.println("Which pattern would you like?");
+            System.out.println("Which type would you like?");
             System.out.println("1) Normal");
             System.out.println("2) Fire");
             System.out.println("3) Water");
@@ -27,6 +27,7 @@ public class Main {
             ez.print("16) Dark");
             ez.print("17) Steel");
             ez.print("18) Fairy");
+            ez.print("19) Stop");
             String answer = kboard.next();
             if (answer.equalsIgnoreCase("1")||answer.equalsIgnoreCase("Normal")){
                 types.normal();
@@ -47,47 +48,47 @@ public class Main {
                 types.ice();
             }
             else if (answer.equalsIgnoreCase("7")||answer.equalsIgnoreCase("Fighting")) {
-
+                types.fighting();
             }
             else if (answer.equalsIgnoreCase("8")||answer.equalsIgnoreCase("Poison")) {
-
+types.poison();
             }
             else if (answer.equalsIgnoreCase("9")||answer.equalsIgnoreCase("Ground")) {
-
+types.ground();
             }
             else if (answer.equalsIgnoreCase("10")||answer.equalsIgnoreCase("FLying")) {
-
+types.flying();
             }
             else if (answer.equalsIgnoreCase("11")||answer.equalsIgnoreCase("Psychic")) {
-
+types.psychic();
             }
             else if (answer.equalsIgnoreCase("12")||answer.equalsIgnoreCase("Bug")) {
-
+types.bug();
             }
 
             else if (answer.equalsIgnoreCase("13")||answer.equalsIgnoreCase("Rock")) {
-
+types.rock();
             }
             else if (answer.equalsIgnoreCase("14")||answer.equalsIgnoreCase("Ghost")) {
-
+types.ghost();
             }
             else if (answer.equalsIgnoreCase("15")||answer.equalsIgnoreCase("Dragon")) {
-
+types.dragon();
             }
             else if (answer.equalsIgnoreCase("16")||answer.equalsIgnoreCase("Dark")) {
-
+types.dark();
             }
             else if (answer.equalsIgnoreCase("17")||answer.equalsIgnoreCase("Steel")) {
-
+types.steel();
             }
             else if (answer.equalsIgnoreCase("18")||answer.equalsIgnoreCase("Fairy")) {
-
+types.fairy();
             }
-            else if (answer.equalsIgnoreCase("8")||answer.equalsIgnoreCase("Stop")){
+            else if (answer.equalsIgnoreCase("19")||answer.equalsIgnoreCase("Stop")){
                 loopCondition=false;
             }
             else {
-                System.out.println("Sorry, I don't have that pattern\n");
+                System.out.println("Sorry, I don't have that type\n");
 
             }
         }
