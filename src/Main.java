@@ -28,6 +28,7 @@ public class Main {
             ez.print("17) Steel");
             ez.print("18) Fairy");
             ez.print("19) Stop");
+
             String answer = kboard.next();
             if (answer.equalsIgnoreCase("1")||answer.equalsIgnoreCase("Normal")){
                 types.normal();
