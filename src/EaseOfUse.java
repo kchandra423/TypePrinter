@@ -6,4 +6,3 @@ public class EaseOfUse {
         System.out.print(x);
     }
 }
-//hi
