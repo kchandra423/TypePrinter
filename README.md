@@ -1,2 +1,2 @@
 # TypePrinter
-I forgot what this does
+Prints pokemon type advantages
